@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThemeCurent", "ThemeCurent", "{FCF0C1BC-FCD7-4A55-921B-D0B87AC4D947}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_06", "Lesson_06", "{07A6A851-B23F-48CD-AC77-F9D41EBFADFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork12", "HomeWork12\HomeWork12.csproj", "{BE25770C-E89B-4C73-A05A-6E693E71A791}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE25770C-E89B-4C73-A05A-6E693E71A791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE25770C-E89B-4C73-A05A-6E693E71A791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE25770C-E89B-4C73-A05A-6E693E71A791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE25770C-E89B-4C73-A05A-6E693E71A791}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07A6A851-B23F-48CD-AC77-F9D41EBFADFF} = {FCF0C1BC-FCD7-4A55-921B-D0B87AC4D947}
+		{BE25770C-E89B-4C73-A05A-6E693E71A791} = {07A6A851-B23F-48CD-AC77-F9D41EBFADFF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CE69695-2389-49A4-A8B3-FCD865258688}
+	EndGlobalSection
+EndGlobal
