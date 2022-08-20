@@ -90,7 +90,11 @@ namespace HomeWork12
         /// </summary>
         public void OpenCompany()
         {
-            Departments = JsonConvert.DeserializeObject<List<Department>>(File.ReadAllText($"CompanyBackup.json"));
+            try
+            {
+                Departments = JsonConvert.DeserializeObject<List<Department>>(File.ReadAllText($"CompanyBackup.json"));
+            }
+            catch { }
         }
 
         /// <summary>
